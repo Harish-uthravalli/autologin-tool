@@ -3,9 +3,9 @@ from datetime import datetime
 
 def login():
     driver = webdriver.Firefox()
-    driver.get("http://mum9.softcell.com/")
-    username = driver.find_element_by_id('user-id')
-    paswrd = driver.find_element_by_id('pw-id')
+    driver.get("URL of your website")
+    username = driver.find_element_by_id('user-id') # Replace user-id with the ID your website uses for username Textbox
+    paswrd = driver.find_element_by_id('pw-id')  # Replace pw-id with the ID your website uses for password Textbox
 
     username.send_keys('saiharish@softcell.com')
     print('Username Entred successfully')
@@ -13,7 +13,7 @@ def login():
     paswrd.send_keys('saiharish@123')
     print('Password entred successfully')
 
-    login_button = driver.find_element_by_xpath("//input[@type='submit' and @value='Sign In']").click()
+    login_button = driver.find_element_by_xpath("//input[@type='submit' and @value='Sign In']").click() # replace Sign In to what your button value is
     print('Login Successful')
 
 def get_time():
