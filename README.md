@@ -17,7 +17,7 @@ NOTE: This tool is only for Ubuntu and also only for those portals that are host
 3. Execute the python file to check if its working or not. Also, change the hour value in the _if_ condition of main(). It is to specify program when not to execute.
 4. In your terminal go to `~/.config/autostart`. If you don't have the folder called autostart then create one using `sudo mkdir <name>`
 5. In the path `~/.config/autostart` create a file called `loginscript.desktop` 
-6. Paste the following code in it. You can open the file using `gedit <filename>`
+6. Paste the following code in it. You can open the file using `sudo gedit <filename>`
 ```
 [Desktop Entry]
 Encoding=UTF-8
