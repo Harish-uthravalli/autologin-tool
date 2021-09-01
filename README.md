@@ -33,6 +33,7 @@ X-GNOME-Autostart-enabled=true
 X-GNOME-Autostart-Delay=0
 ```
 NOTE: If you get a geckodriver error then try using these instructions:
-```
+
+
 First we know that gekodriver is the driver engine of Firefox,and we know that driver.Firefox() is used to open Firefox browser, and it will call the gekodriver engine ,so we need to give the gekodirver a executable permission. so we download the latest gekodriver uncompress the tar packge ,and put gekodriver at the /usr/bin/ ok,that's my answer and i have tested.
-```
+
