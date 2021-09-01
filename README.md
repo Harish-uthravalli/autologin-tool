@@ -1,6 +1,6 @@
 # autologin-tool
 
-There are always these days when you just don't feel like waking up for work and logging into your system. This tool is specifically for those who have a online login portal which records the employees login details such as the login time. 
+There are always those days when you just don't feel like waking up for work and logging into your system. This tool is specifically for those who have a online login portal which records the employees login details such as the login time. 
 The tool does the followiong when provided with the right information.
 1. Executes when PC starts
 2. Logs into your portal automatically
